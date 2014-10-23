@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.collections.*?>
+
+<AnchorPane fx:id="view" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.buildpath.youpay.account.AccountListView">
+	<children>
+		<ListView prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<items>
+				<FXCollections fx:factory="observableArrayList">
+					<String fx:value="4800" />
+					<String fx:value="9600" />
+					<String fx:value="19200" />
+					<String fx:value="57600" />
+					<String fx:value="115200" />
+				</FXCollections>
+			</items>
+		</ListView>
+	</children>
+</AnchorPane>
